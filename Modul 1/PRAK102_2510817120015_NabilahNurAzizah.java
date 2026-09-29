@@ -11,7 +11,7 @@ public class PRAK102_2510817120015_NabilahNurAzizah {
 
         int count = 0;
 
-        while (count <= 10) {
+        while (count < 10) {
             int result;
 
             if (angka % 5 == 0) {
@@ -22,7 +22,7 @@ public class PRAK102_2510817120015_NabilahNurAzizah {
 
             System.out.print(result);
 
-            if (count < 10) {
+            if (count < 9) {
                 System.out.print(", ");
             }
 
