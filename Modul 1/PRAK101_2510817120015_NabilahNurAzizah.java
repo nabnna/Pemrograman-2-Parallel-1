@@ -45,7 +45,7 @@ public class PRAK101_2510817120015_NabilahNurAzizah {
         if (bulan == 2) {
             if (isKabisat && tanggal > 29) {
                 System.out.println("Error: Tahun kabisat, Februari maksimal 29 hari.");
-                System.exit(0); // Menghentikan program
+                System.exit(0);
             } else if (!isKabisat && tanggal > 28) {
                 System.out.println("Error: Bukan kabisat, Februari maksimal 28 hari.");
                 System.exit(0);
