@@ -27,7 +27,6 @@ public class Soal2Main {
         LinkedList<Negara> daftarNegara = new LinkedList<>();
 
         System.out.println("Input:");
-
         int jumlahNegara = input.nextInt();
         input.nextLine();
 
@@ -53,8 +52,7 @@ public class Soal2Main {
 
         System.out.println("Output:");
 
-        for (int i = 0; i < daftarNegara.size(); i++) {
-            Negara negara = daftarNegara.get(i);
+        for (Negara negara : daftarNegara) {
             String jenis = negara.getJenisKepemimpinan();
             String gelar = "";
 
