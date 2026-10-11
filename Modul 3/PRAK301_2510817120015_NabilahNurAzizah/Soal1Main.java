@@ -20,14 +20,15 @@ public class Soal1Main {
         }
 
         int totalNilai = 0;
-
         System.out.println("Output:");
 
-        for (int i = 0; i < kumpulanDadu.size(); i++) {
-            int nilaiSekarang = kumpulanDadu.get(i).getNilai();
+        int nomor = 1;
+        for (Dadu dadu : kumpulanDadu) {
+            int nilaiSekarang = dadu.getNilai();
 
-            System.out.println("Dadu ke-" + (i + 1) + " bernilai " + nilaiSekarang);
+            System.out.println("Dadu ke-" + nomor + " bernilai " + nilaiSekarang);
             totalNilai = totalNilai + nilaiSekarang;
+            nomor++;
         }
 
         System.out.println("Total nilai dadu keseluruhan " + totalNilai);
